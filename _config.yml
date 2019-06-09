@@ -1,3 +1,4 @@
 theme: jekyll-theme-slate
-name: Hank Quinlan, Horrible Cop, kslee5838
+name: kslee5838
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
