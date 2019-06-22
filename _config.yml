@@ -1,4 +1,3 @@
-theme: jekyll-theme-slate
 name: kslee5838
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
