@@ -1,2 +1,5 @@
 <img class="feat-img" src="{{ site.baseurl }}/assets/images/{{ include.image }}" alt="{{ include.alt | default: 'image representing a theme
 in this article' }}" />
+
+![myself](Kslee5838/Downloads/picture.myself.jpg)
+Format: ![Alt Text](url)
