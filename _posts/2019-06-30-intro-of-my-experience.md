@@ -1,4 +1,4 @@
-### 이름 이기성 (만 56세)    ![My helpful screenshot](/assets/picture.myself.jpg)
+### 이름 이기성 (만 56세) ![My helpful screenshot](/assets/picture.myself.jpg)         
 
 ### 경력  
 * 현대종합금융(주)근무, 회사채주선 1년, CP 딜러 3년  
