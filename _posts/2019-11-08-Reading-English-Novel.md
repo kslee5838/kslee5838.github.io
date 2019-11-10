@@ -21,8 +21,7 @@
   * “The pillars of the earth” by KEN FOLLETT    
 
 # 재미있는 몇가지 이유 1
-							![My helpful screenshot](/assets/theGirl.jpg)        
-
+![My helpful screenshot](/assets/theGirl.jpg)       
 
 > She went to the bathroom and came back with two Duralex glasses.
   “Are you going to stay sober and sensible or will you join me?”
@@ -101,20 +100,23 @@
 *  신한은행 퇴직, 경영학 박사 (Ph.D. Finance)   
 
 # ADDENDUM : talks about books I’ve read for 2019
-
+![My helpful screenshot](/assets/agentleman.png)
 > “A GENTLMEN IN MOSCOW”, 26 weeks on the list of New York Times Best Seller, Oct. 20, 2019
 Displayed much in stack at YoungPoong Book Store foreign fiction booth
 Must be one of the most purchased books by Korean readers recently but this book wasn’t easy to turn pages in terms of reading comprehension
 
+![My helpful screenshot](/assets/dracula.png)
 > “DRACULA”, Chosen by myself due to memory of horror film which I saw at elementary school
 Hooray! It didn’t fail my expectation
 Spending with about 30 minutes on focus while on subway commuting chilled by both voluptuous lips and blooded sharp tooth
 Collins review – Gothic novel of the 19th Century, Bram Stoker’s DRACULAR is a chilling today in its depiction of the vampire world and … 
 
+![My helpful screenshot](/assets/allthelight.png)
 > “ALL THE LIGHT WE CANNOT SEE”, It had been on the list since 2014 published
 Novel about Marie-Lauret and Werner, 2 children. Each went through with their own lives when World War II broke. And eventually they met. 
 Along with beautiful phrase by author Anthony Doeer this interwoven story flowed seamlessly like poem 
 
+![My helpful screenshot](/assets/tatooist.png)
 > “THE TATTOOIST OF AUSCHWITZ”, 57 weeks on the list
 NY times book review - A concentration camp detainee tasked with permanently marking fellow prisoners falls in love with one of them 
 
