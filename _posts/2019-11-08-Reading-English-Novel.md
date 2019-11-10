@@ -64,7 +64,7 @@ When I was growing up, my family kept chickens.
 
 
 # 소설을 고르는 방법 
-![My helpful screenshot](/assets/ny.jpg)
+![My helpful screenshot](/assets/ny.png)
 
 - 인터넷 뉴욕타임즈 베스트셀러 코너를 보고 몇주간 상위에 랭크 되어 있는 책들을 중심으로 스토리가 자기에게 맞는 지 확인해 본다. (https://www.nytimes.com/books/best-sellers/)   
 - 호기심 있는 책을 선택했으면 Yes24 등 인터넷 서점에서 우리나라에 수입된 재고가 있는지, 또는 너무 가격이 비싸지 않은 지 검색  
