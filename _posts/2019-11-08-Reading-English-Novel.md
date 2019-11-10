@@ -21,7 +21,7 @@
   * “The pillars of the earth” by KEN FOLLETT    
 
 # 재미있는 몇가지 이유 1
-							![My helpful screenshot](/assets/theGirl.jpg)    
+							![My helpful screenshot](/assets/theGirl.jpg)        
 
 
 > She went to the bathroom and came back with two Duralex glasses.
@@ -38,7 +38,7 @@
 # 재미있는 몇가지 이유 2  
 ![My helpful screenshot](/assets/eatpray.jpg)
 
-When I was growing up, my family kept chickens.
+> When I was growing up, my family kept chickens.
   We always had about a dozen of them at any given time and whenever one died off - taken away by hawk or fox or by  some obscure chicken illness - my father would replace the lost hen.
 				P. 157 EAT PRAY LOVE, published 2008
 
@@ -49,7 +49,7 @@ When I was growing up, my family kept chickens.
 재미있는 몇가지 이유 3     
 ![My helpful screenshot](/assets/worthkilling.jpg)
 
-“Hello, there,” she said.
+> “Hello, there,” she said.
     I looked at the pale, freckled hand on the back of the empty bar seat next to me in the business class lounge at Heathrow Airport, then up into the stranger’s face. “Do I know you?” I asked. 
   P. 3, THE KIND WORTH KILLING, published 2017 
 
@@ -88,16 +88,35 @@ When I was growing up, my family kept chickens.
 
 # 결론  
 
-- 국문 소설과 영문 소설은 독자가 읽었을 때 부담감의 차이는 분명히 존재 한다, 시간이 들고, 노력이 들고 가끔 내가 여기에 투자해서 뭐하나 하는 자책감도 있으나,   
-- 영문소설 읽기도 취미의 한분야로 충분히 가치 있는 도전이라고 생각 함.  
+- 국문 소설과 영문 소설은 독자가 읽었을 때 부담감의 차이는 분명히 존재 한다, 시간이 들고, 노력이 들고 가끔 내가 여기에 투자해서 뭐하나 하는 자책감도 있으나,  
+- 영문소설 읽기도 취미의 한분야로 충분히 가치 있는 도전이라고 생각 함   
 - 어느덧 국문이든 영문이든, 신문 또는 소설이든 인쇄체에 대한 집중도가 생기고 원서에 대한 자기만의 독특한 해석이 가능 해질 수 있음  
-- 해석이 어려운 책은 2주 이내에 과감히 책장 어느 곳으로 버리고, 후에 다시 볼 수도 있고 진열해도 좋은 가치가 있음, 다시 새로운 책에 도전한다.    
-- 책을 구입하는 비용은 사실 식사 와 커피값 정도 되는 정도이니, 버릴 때와 살 때 망설일 필요가 없다.  
-- 버리고, 구입하고, 가지고 다니며 노력해서 읽어보면 어느 덧 발전하고 있는 자기를 발견함.   
-- 이상 여러분과 공유 하고 싶었던 내용을 정리해 보았습니다. 글이란 어떤 기여도(contribution)가 있을 때 생명력이 있다고 여겨지며, 여기서 못 다루었던 내용은 다음기회에 좀더 다듬어 보겠습니다.   
-- 네이버에 “영문소설 읽기” 로 조회하면 몇 개의 참고할 만한 블로그도 있음.  
-- 참고로 저의 이력입니다.  
-- 최초로 읽은 책 1988년 “Exodus” by Leontief, 1992년 “아이아코카 자서전“ 으로 시작함. 지방역에서 무교동직장으로 출퇴근하며 전철에서 주로 독서 함. 전철안은 집중도가 최고의 장소라고 생각 합니다   .
-- 이후 1년에 약 3~5권 읽고 있음. 주로 최신의 소설을 선택하며 주제는 쓰릴러, 공포, 탐정 등 따로 구분하지는 않지만 판타지 보다는 현재를 묘사하는 책을 선호함  
-- 금융기관 퇴직. 경영학 박사 (Ph.D Finance)    
+- 해석이 어려운 책은 2주 이내에 과감히 책장 어느 곳으로 버리고, 후에 다시 볼 수도 있고 진열해도 좋은 가치가 있음, 다시 새로운 책에 도전한다. 책을 구입하는 비용은 사실 식사 와 커피값 정도 되는 정도이니, 버릴 때와 살 때 망설일 필요가 없다   
+버리고, 구입하고, 가지고 다니며 노력해서 읽어보면 어느 덧 발전하고 있는 자기를 발견함   
+- 이상 여러분과 공유 하고 싶었던 내용을 정리해 보았습니다. 글이란 어떤 기여도(contribution)가 있을 때 생명력이 있다고 여겨지며, 여기서 못 다루었던 내용은 다음기회에 좀더 다듬어 보겠습니다   
+- 네이버에 “영문소설 읽기” 로 조회하면 몇 개의 참고할 만한 블로그도 있음   
+- 참고로 저의 소개입니다   
+  * 최초로 읽은 책 1988년 “Exodus” by Leontief, 1992년 “아이아코카 자서전“ 으로 시작함. 경기도에서 무교동직장으로 출퇴근하며 전철에서 주로 독서 함. 전철안은 아직도 집중도 최고의 장소입니다  
+  * 1년에 약 3~5권 읽고 있음. 주로 최신의 소설을 선택하며 주제는 쓰릴러, 공포, 탐정 등 따로 구분하지는 않지만 판타지 보다는 현재를 묘사하는 책을 선호함  
+*  신한은행 퇴직, 경영학 박사 (Ph.D. Finance)   
+
+# ADDENDUM : talks about books I’ve read for 2019
+
+> “A GENTLMEN IN MOSCOW”, 26 weeks on the list of New York Times Best Seller, Oct. 20, 2019
+Displayed much in stack at YoungPoong Book Store foreign fiction booth
+Must be one of the most purchased books by Korean readers recently but this book wasn’t easy to turn pages in terms of reading comprehension
+
+> “DRACULA”, Chosen by myself due to memory of horror film which I saw at elementary school
+Hooray! It didn’t fail my expectation
+Spending with about 30 minutes on focus while on subway commuting chilled by both voluptuous lips and blooded sharp tooth
+Collins review – Gothic novel of the 19th Century, Bram Stoker’s DRACULAR is a chilling today in its depiction of the vampire world and … 
+
+> “ALL THE LIGHT WE CANNOT SEE”, It had been on the list since 2014 published
+Novel about Marie-Lauret and Werner, 2 children. Each went through with their own lives when World War II broke. And eventually they met. 
+Along with beautiful phrase by author Anthony Doeer this interwoven story flowed seamlessly like poem 
+
+> “THE TATTOOIST OF AUSCHWITZ”, 57 weeks on the list
+NY times book review - A concentration camp detainee tasked with permanently marking fellow prisoners falls in love with one of them 
+
+
 
