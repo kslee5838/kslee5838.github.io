@@ -18,7 +18,7 @@
 - 관심은 어떠한 계기가 있으면 증폭이 되고, 그래서 즐거움은 배가 된다는 상상을 하며 시작 하겠습니다.  
 
 # 재미있는 몇가지 이유 1
-
+![My helpful screenshot](/assets/picture.theGirl.jpg)
 
 
 She went to the bathroom and came back with two Duralex glasses.
