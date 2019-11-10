@@ -1,14 +1,14 @@
-# 영문소설 읽기
-## 부제 : 원문 읽기의 즐거움
+## 영문소설 읽기
+### 부제 : 원문 읽기의 즐거움
 2018-06-07   
     
-작성목적  
-재미있는 몇가지 이유  
-소설을 고르는 방법  
-습관    
-결론   
+1. 작성목적  
+2. 재미있는 몇가지 이유  
+3. 소설을 고르는 방법  
+4. 습관    
+5. 결론   
 
-# 작성목적
+### 작성목적
 
 - 이 게시물은 비슷한 취미를 가진 사람들과 제가 가지고 있는 경험을 공유하고자 작성 하였습니다    
 - 영어공부에 대한 방법을 제시하고자 하는 것은 아닙니다   
@@ -20,7 +20,7 @@
 
   * “The pillars of the earth” by KEN FOLLETT    
 
-# 재미있는 몇가지 이유 1
+### 재미있는 몇가지 이유 1
 ![My helpful screenshot](/assets/theGirl.jpg)       
 
 > She went to the bathroom and came back with two Duralex glasses.
@@ -34,7 +34,7 @@
 - 상황에 맞는 적절한 표현을 읽으며 몰입도 증가,   
 - 와인을 좋아하거나 또는 술자리를 즐기는 독자라면 메모해서 나중에 비슷한 자리에서 응용 할 수 있는 재미있는 구절일 수 있음   
 
-# 재미있는 몇가지 이유 2  
+### 재미있는 몇가지 이유 2  
 ![My helpful screenshot](/assets/eatpray.jpg)
 
 > When I was growing up, my family kept chickens.
@@ -56,7 +56,7 @@
 - 소설의 첫 페이지 첫 문장은 책 두께 만큼이나 장황한 스토리에 빠르게 빠져 들게 하는 매력이 있음. 물론 모든 책이 그렇지는 않지만, 시작이 일기 쉽고 긴장된 경우, 벌써 한 권을 빨리 해치울 수 있다는 묘한 기대감이 생김.   
 
 
-# 재미있는 몇가지 이유 4     
+### 재미있는 몇가지 이유 4     
 
 - 책에 대한 몰입과 함께 흥미와 집중도가 생기고,  
 - 어떨 때는 도저히 끝낼 수 없을 것 같던 두께의 소설도 어느덧 마지막장을 빨리 읽고 있는 자기를 발견하고 놀라 기도 함  
@@ -65,7 +65,7 @@
 - 번역 본이 아닌 작가가 직접 쓴 원문을 읽을 때 그 의미와 미세한 표현들을 파악하며 소소 하게 느끼는 즐거움은 여타 취미 마찬가지로 동일한 만족감을 얻을 수 있음     
 
 
-# 소설을 고르는 방법 
+### 소설을 고르는 방법 
 ![My helpful screenshot](/assets/ny.png)
 
 - 인터넷 뉴욕타임즈 베스트셀러 코너를 보고 몇주간 상위에 랭크 되어 있는 책들을 중심으로 스토리가 자기에게 맞는 지 확인해 본다. (https://www.nytimes.com/books/best-sellers/)   
@@ -73,7 +73,7 @@
 - 책을 주문할 때는 2권을 넘지 말자. 1권을 읽을때 보통 2달이 걸릴수 있으므로 최신의 소설을 읽을 것을 목표로 한다면 3권은 의욕은 좋지만 매우 부담 돼는 수준임  
 - 고전, 예를 들어 “주홍글씨“,”호밀밭의 파수꾼“, 보다는 지금 막 유행하는 책을 고를 것을 추천 함. 읽다 보면 영화가 만들어 지고 있기도 하고, 어느날 극장에 가면, “어, 내가 읽었던 책이 영화화 됐네”, 신기하기도 하고 반갑기도 한 경우가 종종 발생.   
 
-# 습관  
+### 습관  
 
 - 뉴욕타임즈 검색후 yes24 에서 책을 2권 주문한다      
 - 1권은 배송비를 부담해야 하기 때문에 보통 2권을 선택하며, 가격도 권당 1만원5천원 이내에서 선택한다    
@@ -99,8 +99,8 @@
   * 1년에 약 3~5권 읽고 있음. 주로 최신의 소설을 선택하며 주제는 쓰릴러, 공포, 탐정 등 따로 구분하지는 않지만 판타지 보다는 현재를 묘사하는 책을 선호함  
 *  신한은행 퇴직, 경영학 박사 (Ph.D. Finance)   
 
-# ADDENDUM : talks about books I’ve read for 2019
-![My helpful screenshot](/assets/agentleman.png)
+### ADDENDUM : talks about books I’ve read for 2019
+![My helpful screenshot](/assets/agentleman.png)  
 > “A GENTLMEN IN MOSCOW”, 26 weeks on the list of New York Times Best Seller, Oct. 20, 2019
 Displayed much in stack at YoungPoong Book Store foreign fiction booth
 Must be one of the most purchased books by Korean readers recently but this book wasn’t easy to turn pages in terms of reading comprehension
@@ -111,7 +111,7 @@ Hooray! It didn’t fail my expectation
 Spending with about 30 minutes on focus while on subway commuting chilled by both voluptuous lips and blooded sharp tooth
 Collins review – Gothic novel of the 19th Century, Bram Stoker’s DRACULAR is a chilling today in its depiction of the vampire world and … 
 
-![My helpful screenshot](/assets/allthelight.png)
+![My helpful screenshot](/assets/allthelight.png)  
 > “ALL THE LIGHT WE CANNOT SEE”, It had been on the list since 2014 published
 Novel about Marie-Lauret and Werner, 2 children. Each went through with their own lives when World War II broke. And eventually they met. 
 Along with beautiful phrase by author Anthony Doeer this interwoven story flowed seamlessly like poem 
