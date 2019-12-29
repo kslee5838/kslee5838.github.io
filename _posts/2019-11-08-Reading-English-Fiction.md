@@ -122,5 +122,6 @@
 * NY times book review - A concentration camp detainee tasked with permanently marking fellow prisoners falls in love with one of them   
 
 ![My helpful screenshot](/assets/119F0179-05E1-4D37-AF47-66CC9628C3C3.jpeg)
-
+* "Overstory" Pulitzer awarded
+* Manbooker prize 2018
 
