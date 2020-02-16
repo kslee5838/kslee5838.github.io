@@ -1,8 +1,8 @@
 pm 9:03 SUN, 2020-02-16     
 ⦁	가상환경 로츠카츠AI머신러닝     
 ⦁	To see if the conda installation of Python is in your PATH variable:    
-On macOS and Linux, open the terminal and run echo $PATH.   
-On Windows, open an Anaconda Prompt and run echo %PATH%.    
+   On macOS and Linux, open the terminal and run echo $PATH.   
+   On Windows, open an Anaconda Prompt and run echo %PATH%.    
 ⦁	To see which Python installation is currently set as the default:    
 On Windows, open an Anaconda Prompt and run where python.   
 
