@@ -23,4 +23,7 @@ print(sess.run(hello))
 ⦁	See https://www.tensorflow.org/install/errors           
 #??           
 당초 tensorflow = 2.0 설치       
-그리고 tensorflow gpu 는 뭔지, 일단 tensorflow는 삭제 했음   
+그리고 tensorflow gpu 는 뭔지, 일단 tensorflow는 삭제 했음  
+
+커맨드라인에서
+git clone https://... .git 입력 
