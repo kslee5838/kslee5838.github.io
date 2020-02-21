@@ -30,9 +30,9 @@ print(sess.run(hello))
 git clone https://... .git 입력 
 
 워킹디렉토리  
-'>>>import os   
-'>>>os.getcwd()   
-'>>>print(os.listdur(os.getcwd()))   
+>>>import os   
+>>>os.getcwd()   
+>>>print(os.listdur(os.getcwd()))   
    
-'>>>import sys   
-'>>>sys.path      
+>>>import sys   
+>>>sys.path      
