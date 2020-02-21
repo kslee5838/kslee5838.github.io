@@ -37,7 +37,11 @@ git clone https://... .git 입력
 >>>print(os.listdur(os.getcwd()))   
    
 >>>import sys        
->>>sys.path         
+>>>sys.path   
+sys.path.append('C:\\sers\\Kslee5838\\jupyter')
+....
+다시 sys.path 로 확인
+
 >>>sys.path[0]    
 
 >>>import tensorflow as tf
