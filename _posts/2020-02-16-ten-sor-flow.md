@@ -1,5 +1,7 @@
-pm 9:03 SUN, 2020-02-16     
- 가상환경 로츠카츠AI머신러닝       
+pm 9:03 SUN, 2020-02-16    
+
+ 가상환경 로츠카츠AI머신러닝                            
+                            
  To see if the conda installation of Python is in your PATH variable:    
    On macOS and Linux, open the terminal and run echo $PATH.   
    On Windows, open an Anaconda Prompt and run echo %PATH%             
@@ -34,5 +36,9 @@ git clone https://... .git 입력
 >>>os.getcwd()   
 >>>print(os.listdur(os.getcwd()))   
    
->>>import sys   
->>>sys.path      
+>>>import sys        
+>>>sys.path         
+>>>sys.path[0]    
+
+>>>import tensorflow as tf
+>>>orint(tf.__version__)
