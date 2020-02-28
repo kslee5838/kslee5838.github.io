@@ -46,3 +46,6 @@ sys.path.append('C:\\sers\\Kslee5838\\jupyter')
 
 >>>import tensorflow as tf
 >>>orint(tf.__version__)
+
+ >>>import os  
+'>>>os.listdir()     
