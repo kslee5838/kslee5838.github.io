@@ -1,4 +1,4 @@
-I drew line every day on calender hung my room. As if days seemed to run out out of stock soon.       
+I drew line every day on calender hung my room. As if days seemed to run out of stock soon.       
     
 I stoped by babershop which I visited every end of month around. An attendant bowed me politely with her eyes slightly squinted. 
 And led me to sit vacant chair otherwise I would unfold newspaper prepared on before sofa.   
