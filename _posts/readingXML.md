@@ -12,8 +12,7 @@
 	> url4<-"http://openapi.forest.go.kr/openapi/service/cultureInfoService/gdTrailInfoOpenAPI?serviceKey=rnqqUlk9yLx%2FVIeSv%2FHRdO0Th0ulISq9imO26OYkiUXJINCpsMdzSJol0CI7urgGziwwH8%2Fd9iLRkrn5JOP8qA%3D%3D&searchArNm=%EA%B2%BD%EC%83%81%EB%82%A8%EB%8F%84&numOfRows=10&pageNo=2"
         
 	> html04<-htmlTreeParse(url4)
-  
-	> html04<-htmlTreeParse(url4,useInternalNodes = T)
+  	> html04<-htmlTreeParse(url4,useInternalNodes = T)
  
 	> xmltop = xmlRoot(html04)
 
