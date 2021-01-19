@@ -1,0 +1,157 @@
+## 작성목적    
+- 몇 년전부터 신문에 현대사회에서 데이터는 돈이 된다는 지문을 접하게 됐고 그 와중에 정부가 데이터를 공개하니 민간에서 알아서 쓰라는 기사가 계속 나오기 시작 했음, 혹시 돈을 벌 기회가 될까 관심을 가지고 접근하기 시작 함    
+- 정부에서 제공하는 공공데이터에서 관심있는 주제를 선정하여 자료를 추출하고자 한다  
+- 예를 들어 출근시간대에 어느 전철역이 혼잡한지 확인하고 기상청이 제공하는 무료 데이터를 이용하여 관심있는 지역의 날싸를 확인 한다
+- 또는 국립공원 관리공단에서 제공하는 명산정보를 통하여 교통편, 산의 개략적 특징, 명소 등을 확인 하고자 할때 공공제이터를 이용 할 수 있다
+- `www.data.co.kr`에 접속하여 공공데이터의 내용을 `R` 프로그램을 이용하여 `openAPI`를 사용하는 방법을 기술하여 다른 이들도 이용 할수 있게 하고자 함   
+
+## 간단한 순서          
+- 웹사이트에 접속후 ID를 등록하고 돋보기를 이용하여 관심주제를 선정한다     
+- 관련된 자료의 서비스키(serviceket)를 신청하면 약 5분후 키가 활성화 된다
+- 도움을 받을 수 있는 기술문서가 word 나 아래한글 파일로 첨부되어 있으니 이를 다운로드 받아서 열어 본다  
+- Rstudio 는 본인 PC에 있다고 가정 하고 진행 합니다 
+
+## 배우는 내용  
+
+* API를 읽기 위하여 필요한 `R`의 명령문 들을 익 힐수 있다      
+  + `xmlParse()`
+  + `xmlToList()`
+  + `GET()`
+* xml 요소가 있는 url의 주소를 `paste()`구문을 를 통하여 제조할 수 있다  
+* 추출한 자료(결과)를 엑셀에 저장할 수 있다   
+
+## openAPI_01 : 산행정보     
+
+- 아래의 패키지를 콘솔창에 입력한다     
+
+```{r mountain01 pressure, message=FALSE,warning=FALSE,results='hide'}
+library(xml2)  
+library(httr)   
+library(XML)   
+library(RCurl)    
+library(plyr);library(dplyr) 
+Sys.setlocale("LC_ALL", "Kor")
+```
+* 다음은 이용 할 변수 설정  
+```{r mountain01_1}
+baseurl<-'http://openapi.forest.go.kr/openapi/service/cultureInfoService/gdTrailInfoOpenAPI'
+param1<-'serviceKey'
+category<-'searchMtNm'
+category2<-'searchArNm'
+param2<-'numOfRows' #한페이지에 담겨있는 총 데이터 개수 
+Param3<-'pageNo'    #페이지 번호로 사용
+mykey<-'CKEw%2BG0Y3%2FUadNuPdKMvaiHTeVEoVtUyb3olOJRagv3i6FL9d0Brkv7axj4ToMcrCFDYk6odLA7PzJKo7JjUkQ%3D%3D'
+```
+* 위의 코드 설명     
+  + `baseurl` : openAPI에 접근하기 위한 주소          
+  + `param1` : sevicekey 로 신청 했을 때 발급 받은 키 를 나타내는 이름   
+  + `param2` : numOfRows로 한페이지에 담겨있을 총 데이터 개수           
+  + `Param3` : pageNo로 페이지 번호로 사용    
+  + `category` : 찾고있는 분야의 데이터에 관한 내용 (기술문서에 표시되어 있음)             
+  + `category2` : 찾고있는 분야의 데이터에 관한 내용(기술문서에 표시되어 있음)   
+  + `mykey` : 발급 받은 인증 키      
+- 아래는 마지막 데이터를 담을 데이터 프레임 선언     
+```{r mountain02}
+dt<-data.frame()
+```
+- 요청 할 url을 지정한다
+```{r mountain03}
+requestUrl<-paste(baseurl,"?",param1,"=",mykey,"&",category,"=","&",category2,"=","&",param2,"=","10","&",Param3,"=",sep = "")
+page=getForm(paste(requestUrl),query="")  
+doc=xmlToDataFrame(page)
+totalDataNum=as.numeric(doc[2,6])
+totalPageNum=(totalDataNum%/%10)+1
+```
+* 위의 코드 설명   
+  + `paste()`는 문자열을 연결하는 함수 이고 `sep=""`는 구분자를 없애는 파라미터 임  
+  + `requesturl<-"http://openapi.forest.go.kr/openapi/service/cultureInfoService/gdTrailInfoOpenAPI?serviceKey=발급받은인증키번호 &numOfRows=10&pageNo="` 이고 물음표(`?`)다음에 발급받은 인증키 번호 그리고 앤드(`&`)와 앧드마크(`&`) 로 연결 되어 있다 
+  + `requestUrl` 이 어떻게 표시돼는지 다음과 같다     
+```{r mountain03_1}
+requestUrl
+```
+
+- 다음은, 한 페이지 분량의 데이터 가져오기
+  + `xmlToList()` : xmlParse()로 읽은 자료를 리스트(list)형식으로 변환시켜 준다   
+  + 그 결과는 `doc$body$items`모양으로 나타나다   
+```{r mountain04}
+url_page=getForm(requestUrl,query="")
+doc=xmlParse(url_page)
+doc=xmlToList(doc)
+for(i in 1:10) {
+  tmp<-data.frame(doc[2]$body$items[i])
+  dt<-rbind.fill(dt,tmp)
+}  
+```
+- 결과를 csv파일로 저장한다     
+```{r mountain05}
+write.csv(dt,"산행정보.csv") 
+```
+## openAPI_02 : 부동산 실거래가 정보가져오기
+* 두번 째 예제는 다음과 같다  
+```{r results='hide' }
+baseurl<-'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcAptTrade'
+param1<-'serviceKey'
+category<-'LAWD_CD=11110'
+category2<-'DEAL_YMD=201912'
+mykey<-'rnqqUlk9yLx%2FVIeSv%2FHRdO0Th0ulISq9imO26OYkiUXJINCpsMdzSJol0CI7urgGziwwH8%2Fd9iLRkrn5JOP8qA%3D%3D'
+
+dt<-data.frame()
+
+requestUrl<-paste(baseurl,"?",param1,"=",mykey,"&",category,"=","&",category2,sep = "")
+requestUrl
+library(httr)
+
+req_api<-GET(requestUrl)
+repo_content2<-content(req_api)
+
+for(i in 1:48) {
+  tmp<-data.frame(repo_content2$response$body$items$item[[i]])
+  dt<-rbind.fill(dt,tmp)
+}  
+
+write.csv(dt,"실거래가정보.csv") 
+```
+* 위의 코드설명   
+   + `xmlParse()`대신에 `GET()`을 이용하였다.그 이유는 `XML`문서를 인코딩할때 좀더 수월한 함수를 사용하였다    + 마찬가지로 `content()' 이용하여 위의 결과를 리스트(list)화 시켰다.즉 `class(req_api)`결과는 `list` 임    + `for`구문을 이용하여 처음의 `doc`객체와 지금의 `tmp`를 만드는 과정이 차이가 있으니 주의하여 보고, 직접 콘솔창에 입력하여 결과를 확인 해보자      
+       
+## openAPI_03 : 국민연금공단 제공 사업장정보 가져오기    
+* 세번 째 예제는 다음과 같다  
+```{r results='hide'}
+baseurl<-'http://apis.data.go.kr/B552015/NpsBplcInfoInqireService/getBassInfoSearch' #사업장정보조회  
+param1<-'serviceKey'
+category1<-'ldong_addr_mgpl_dg_cd=41'
+category2<-'ldong_addr_mgpl_sggu_cd=117'
+category3<-'ldong_addr_mgpl_sggu_emd_cd=101'
+category4<-'wkpl_nm=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90' #삼성전자를 인코딩하여 입력한다   
+category5<-'bzowr_rgst_no=124815'
+
+param2<-'numOfRows'  
+param3<-'pageNo'    
+mykey<-'DdjuzWgKHzEeCSvRkTpf9aFPIIG5TfDOFr4OH2XYn6mjE7TK4xqu%2BZ0G7I68SkIcdzYgD4AxeZ4SMbXEM4iuQA%3D%3D'
+
+dt<-data.frame()
+
+requestUrl<-paste(baseurl,"?",param1,"=",mykey,"&",category1,"&",category2,"&",category3,"&",category4,"&",category5,"&",param2,"=",10,"&",param3,"=",sep = "")
+requestUrl
+
+library(httr)
+
+req_api<-GET(requestUrl)
+repo_content2<-content(req_api)
+
+for(i in 1:1) {
+  tmp<-data.frame(repo_content2$response$body$items$item[[i]])
+  dt<-rbind.fill(dt,tmp)
+}  
+
+write.csv(dt,"공단정보.csv") 
+```
+* 두번째와 세번째 예제에서는 모두 `GET()`함수를 이용하였다 
+
+## 결론  
+* 정부제공 openAPI를 이용하는 방법은 `R`외에 `python`,`C+`,`Java` 등이 있으나 여기서는 `R`을 이용한 자료추출을 행하였다  
+* 수많은 제공 데이터 중 흥미에 맞는 주제를 고르고 이를 의미있는 글자로 만들어 해독하려면 몇번의 시행 착오가 따를 수밖에 없고 이때 위의 방법을 참고 할 수 있겠다   
+* 참고자료           
+  + R을 이용한 시각화와 데이터 분석개론, 류기얼 지음       
+  + Coursera 강좌중 Importing Data in the Tidyverse, Johns Hopkins University      
+  + 위 강좌 Getting and Cleaning Data, Johna Hopkins University  
