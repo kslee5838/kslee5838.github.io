@@ -1,6 +1,6 @@
-import pandas as pd
-from urllib.request import urlopen
-from bs4 import BeautifulSoup
+import pandas as pd    
+from urllib.request import urlopen   
+from bs4 import BeautifulSoup    
 
 url='https://finance.naver.com/sise/dividend_list.nhn?&page=25'
 with urlopen(url) as doc:
