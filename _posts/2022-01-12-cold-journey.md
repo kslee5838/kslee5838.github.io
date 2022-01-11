@@ -1,1 +1,5 @@
-as cold as I put on flynel shirt
+- It wsd as cold as I put on a flannel shirt    
+- Cautious steps needed on sheer icy road    
+- It seemed gigantic far above my eyes to see guiding rope     
+- Shoulders felt naked whth heavy wind   
+- I'd like dive into down deep valley which unfoled its arms wide
