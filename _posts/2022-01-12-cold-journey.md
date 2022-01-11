@@ -3,3 +3,4 @@
 - It seemed gigantic far above my eyes to see guiding rope     
 - Shoulders felt naked whth heavy wind   
 - I'd like dive into down deep valley which unfoled its arms wide
+- Having lunch on the pickc was somewhat beyond reality 
