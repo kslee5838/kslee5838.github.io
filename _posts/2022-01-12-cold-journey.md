@@ -4,3 +4,4 @@
 - Shoulders were shaken with heavy wind   
 - I'd like dive into deep valley which unfolded its arms wide
 - Having lunch on the pick was somewhat beyond reality 
+하이
