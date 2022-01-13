@@ -1,6 +1,6 @@
-- It wsd as cold as I put on a flannel shirt    
-- Cautious steps needed on sheer icy road    
+- It was cold as if I put on a flannel shirt    
+- Cautious steps needed on sheer icy path    
 - It seemed gigantic far above my eyes to see guiding rope     
-- Shoulders felt naked whth heavy wind   
-- I'd like dive into down deep valley which unfoled its arms wide
-- Having lunch on the pickc was somewhat beyond reality 
+- Shoulders shaken with heavy wind   
+- I'd like dive into deep valley which unfolded its arms wide
+- Having lunch on the pick was somewhat beyond reality 
