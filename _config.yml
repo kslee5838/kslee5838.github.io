@@ -1,4 +1,4 @@
-name: kslee5838
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+theme: jekyll-theme-minimal
+title: Octocat's homepage
+description: Bookmark this to keep an eye on my project updates!
 
