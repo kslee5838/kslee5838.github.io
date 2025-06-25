@@ -1,3 +1,10 @@
+---
+layout : post
+title : Ordinary Grace
+date : 2025-06-25
+---
+4 weeks long reading
+
 ## Ordinary Grace
 
 - 1960년대 미네소타주 작은 마을을 중심으로 던행(Dumham)가족 13살 소년 프랭크의 눈으로 그려보는
