@@ -5,7 +5,7 @@ date : 2025-10-11
 ---
 ? weeks long reading
 
-## Street of Laredo
+## Street of Laredo, By Larry Mcmurtry
 
 - 주인공 1: Captain Call
 
