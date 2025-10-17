@@ -7,11 +7,11 @@ date : 2026-10-11
 
 ## Street of Laredo
 
-- Captain Call
+- 주인공 1: Captain Call
 
-- Lorena, Pea Eye
+- 주인공 2: Lorena, Pea Eye, Maris and her son the killer whose name is Garza
 
-- Mr.Boorkshire
+- 주인공 3: Mr.Boorkshire
 
 - Pea Eye felt he lived another life compare to his family whose leader seemed to him, Lorena, his beloved wife. Then next morning he met children crying for bread, hurrying chores, asking frivlous and is life kicked in again to whole family member himself
 
