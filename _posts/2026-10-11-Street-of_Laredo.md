@@ -1,7 +1,7 @@
 ---
 layout : post
 title : Street of Laredo
-date : 2026-10-11
+date : 2025-10-11
 ---
 ? weeks long reading
 
