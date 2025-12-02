@@ -1,5 +1,5 @@
 
-* Biginning
+# Biginning
 - The story of book was Marauce & Marylain at first then rather edited to
 Marayain & Maurice while I was reading
 - Ther first voyage to the sea with simple boate. 
@@ -8,7 +8,7 @@ Marayain & Maurice while I was reading
 - Mr. Maurice life faced forward his wife since then. 
 - He longed for her stoutness and consideration. 
 
-AI mode bellow
+# AI mode bellow
 Beginning
 
 The story of the book initially revolved around Maurice and Marylain, but it was later edited to feature Maryain and Maurice. While I was reading, I noticed a change in the narrative.
