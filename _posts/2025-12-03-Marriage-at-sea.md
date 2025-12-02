@@ -8,6 +8,9 @@ Marayain & Maurice while I was reading
 - Mr. Maurice life faced forward his wife since then. 
 - He longed for her stoutness and consideration. 
 
+## Body
+I'm starting to interest at how a creatures outside of human being environment. they might have sorrow as well as own smartness. A whale, turtles and birds of wild life on wide sea was reffered this book. Maybe I nees another this kind of book. 
+
 # AI mode bellow
 Beginning
 
